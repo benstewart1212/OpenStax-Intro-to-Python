@@ -1,0 +1,18 @@
+# Short program for assigning variables
+'''
+Creates a variable, team1, assigned with the value "Liverpool".
+Creates a variable, team2, assigned with the value "Chelsea".
+Creates a variable score1, assigned with the value 4.
+Creates a variable, score2, assigned with the value 3.
+Prints team1, "versus", and team2 as a single line of output.
+Prints "Final score: ", score1, "to", score2 as a single line of output.
+'''
+
+team1 = 'Liverpool'
+team2 = 'Chelsea'
+
+score1 = 4
+score2 = 3
+
+print(team1 + ' VERSUS ' + team2)
+print('Final Score: ' + str(score1) + ' to ' + str(score2 ))
