@@ -1,0 +1,9 @@
+# String basics
+
+#No need to define a string versus a char since "" and '' are treated as strings in python
+uin = input("Test out the len() function. Please enter a word to recieve the length back: ")
+print(len(uin))
+
+# I am being lazy here but I can only keep beating a dead horse so much.
+# I don't think I need any more of a refresher on how to print out strings or inputs or convert inputs to strings using the str() function. 
+
