@@ -1,0 +1,33 @@
+#basic numbers 
+a = 1
+b = 2.0
+c = '3'
+
+print(a, type(a))
+print(b, type(b))
+print(c, type(c))
+
+x = 5
+y = 10
+z = 200
+
+print( z + y + x)
+print( z * y * x)
+print( z - y - x)
+print( z / y / x) # note division converts to floats 
+divi = z / y / x
+print(divi, type(divi))
+
+#exponents 
+print(9 ** 9)
+
+# the math library holds some very important values necessary for higher level math
+import math 
+
+print(math.pi)
+
+# excercise
+meters = 10
+metertofeet = 3.28
+feet = meters * metertofeet
+print(feet)
