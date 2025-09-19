@@ -1,0 +1,26 @@
+# This is going to highlight some concepts that show basic output
+# I am not going to make 15 different programs to highlight each one so they are all here
+
+print('All of this is on the same line!')
+print('We can add in seperation using the sep=" " command')
+print('Here','is','an','example', sep="SPLIT")
+print('We can also connect 2 print statements using the end=" command')
+print('We are going to combine the sentence here -->O', end="")
+print(' and here is the next line')
+
+print('lets go ahead and show that we can give a prompt with the user input')
+user_input = input("SEE! Here we can enter whatever. Type the word fishpaste: ")
+print('what a load of ' + user_input)
+
+# The Robert Frost poem from the tutorial
+print('I shall be telling this with a sigh')
+print('Somewhere ages and ages hence:')
+print('Two roads diverged in a wood, and I--')
+print('I took the one less traveled by,')
+print('And that has made all the difference.')
+
+# Short program that prompts for a name and likes and then tells a short mad-lib type story
+name = input("Please enter your name: ")
+like = input ("Please enter 1 thing you like(IE like computers): ")
+print('Once upon a time there was a strange and silly little person named ' + name + ' who fell asleep each night to sweet dreams about ' + like + '.')
+
