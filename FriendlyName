@@ -1,0 +1,3 @@
+print('Hello User. Please enter your name:')
+name = input()
+print(name + ' is a beautiful name!')
