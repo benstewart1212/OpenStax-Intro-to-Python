@@ -1,0 +1,33 @@
+#Concepts in practice
+# Grade avg
+# grades are only returned as integers
+# however half points are allowed in grading
+# convert from floats to final integer total
+
+# exams
+exam_1 = 93.0
+exam_2 = 84.0
+exam_3 = 85.5
+
+average = (exam_1 + exam_2 + exam_3) / 3
+print("Float value of averages: ", average)
+print("Real (Int) value of average: ", round(average))
+# now show the type conversion
+print("Averages new type:", type(int(average)))
+
+# continuation Cups of Water
+# convert ounces to cups 
+# show how many cups still need to be drank
+
+Amount = int(input())
+CupsDrank = int(round(Amount / 8))
+NotDrank = int(round((64-Amount)/8))
+print("As of now you have drank ", CupsDrank , " Cups of Water.")
+print("You still need to drink ", NotDrank , " Cups of Water.")
+
+
+# Convert 2 integers into a float
+A = 3
+B = 6
+sumAsFloat = float(A+B)
+print("val: ", sumAsFloat," type: ", type(sumAsFloat))
