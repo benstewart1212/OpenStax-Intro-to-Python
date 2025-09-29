@@ -1,0 +1,13 @@
+# nothing of note here as it was just a tutorial on the shell but here is the shell commands from the 'test'
+>>> x = 123
+>>> y = 456
+>>> print("Easy as ", x)
+Easy as  123
+>>> print("y over 2 is ", y/2)
+y over 2 is  228.0
+>>> name = input("What is your name?")
+What is your name?Boppin
+>>> print(name, "is", len(name), "letters long.")
+Boppin is 6 letters long.
+>>> print("Thats all folks!")
+Thats all folks!
